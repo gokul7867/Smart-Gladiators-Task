@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="24765" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24743"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PreviewViewController" customModule="QuotesApp" customModuleProvider="target">
+            <connections>
+                <outlet property="imageView" destination="9yA-q3-N9W" id="BXP-hV-uF1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ak7-MB-YfF">
+                    <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9yA-q3-N9W">
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="9yA-q3-N9W" firstAttribute="leading" secondItem="Ak7-MB-YfF" secondAttribute="leading" id="8Hl-Ua-U2U"/>
+                        <constraint firstAttribute="trailing" secondItem="9yA-q3-N9W" secondAttribute="trailing" id="KCd-QP-9Jw"/>
+                        <constraint firstItem="9yA-q3-N9W" firstAttribute="top" secondItem="Ak7-MB-YfF" secondAttribute="top" id="eKH-kL-0zp"/>
+                        <constraint firstAttribute="bottom" secondItem="9yA-q3-N9W" secondAttribute="bottom" id="isF-i0-lQM"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="Ak7-MB-YfF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="7pY-tx-5nx"/>
+                <constraint firstAttribute="bottom" secondItem="Ak7-MB-YfF" secondAttribute="bottom" id="PJp-Wx-DcJ"/>
+                <constraint firstItem="Ak7-MB-YfF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Pq0-qS-bzi"/>
+                <constraint firstAttribute="trailing" secondItem="Ak7-MB-YfF" secondAttribute="trailing" id="aij-q4-Pqk"/>
+            </constraints>
+            <point key="canvasLocation" x="-91" y="107"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
